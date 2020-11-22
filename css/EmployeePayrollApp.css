@@ -50,3 +50,33 @@
     align-items: center; 
     border: Opx solid green; 
 }
+.label 
+{
+    min-width: 140px; 
+}
+label {
+    color: #42515f;
+    padding: 12px 12px 12px 0;
+    display: inline-block; 
+}
+.profile-radio-content 
+{
+    display: flex; 
+    flex-direction: row; 
+} 
+.profile-radio-content > label {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+} 
+.profile {
+    width: 40px; 
+    border-radius: 50%; 
+    margin-left: 12px; 
+} 
+.text {
+    font-size: 16px; 
+    color: #42515f; 
+    opacity: 1; 
+    font-family: Roboto; 
+}
