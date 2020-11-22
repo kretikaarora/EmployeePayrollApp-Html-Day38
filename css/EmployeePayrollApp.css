@@ -1,0 +1,18 @@
+.header
+{
+    padding:15px 0;
+    background-color: #ffffff;
+}
+/*by default flex display will give direction as row*/
+.header-content
+{
+    display: flex;
+    /*justify-content: center;*/
+    /*border: 1px solid green;*/
+}
+.logo-content
+{
+    display: flex;
+    align-items:center;
+    /*width:20%;*/
+}
