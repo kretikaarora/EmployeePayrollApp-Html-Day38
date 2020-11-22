@@ -28,7 +28,28 @@
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name..">
                 <error-output class="text-error" for="text"></error-output>
-            </div>             
+            </div>  
+            <!--in this we have a label prof img and inside that label we have sub labels-->
+            <!--sub labels include image as label along with button input-->           
+
+            <div class="row-content">
+                <label class="label text" for="profile">Profile image</label>
+                <!--here value in label is used for saving the content and displaying it -->
+                <div class="profile-radio-content"> 
+
+                    <label> <input type="radio" id="profilel" name="profile"value="../assets/Ellipse -1.png" required > 
+                    <img class="profile" id='imagel' src="..\assets\Ellipse 1.png"> </label> 
+
+                    <label><input type="radio" id="profile2" name="profile" value="../assets/Ellipse2.png"required>
+                    <img class="profile" is=image2 src="../assets/Ellipse -2.png"></label>
+
+                    <label> <input type="radio" id="profile3" name="profile" value="../assets/Ellipse -5.png" required> 
+                    <img class="profile" id='image3' src="../assets/Ellipse -5.png"> </label> 
+
+                    <label> <input type="radio" id="profile4" name="profile" value="../assets/Ellipse -8.png" required> 
+                    <img class="profile" id='image4' src="../assets/Ellipse -8.png"> </label>
+                </div>
+            </div>                        
         </form>
     </div>  
     </body>
