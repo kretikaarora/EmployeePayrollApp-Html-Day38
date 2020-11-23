@@ -14,6 +14,22 @@
             <span class="emp-text">EMPLOYEE</span><br>
             <span class="emp-text">PAYROLL</span>
         </div>
-    </header>    
+    </header>  
+    <div class="form-content">
+        <!--action is uri of program that processes the form info-->
+        <!--onrest button resets the form-->
+        <!--onsubmit saves the form-->
+        <!--all these will be used later on-->
+        <form class="form" action="#" onreset="resetForm();" onsubmit="save();">
+            <div class="form-head">
+                employee payroll form
+            </div>
+            <div class="row-content">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <error-output class="text-error" for="text"></error-output>
+            </div>             
+        </form>
+    </div>  
     </body>
 </html>
